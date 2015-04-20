@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[50], G[4], answer[10];
+{ char Name[100], G[4], answer[10];
   int i;
+
+  printf("This is a blood group program");
   do
   {
     printf("How does your mom call your name? ");
